@@ -1,0 +1,49 @@
+.team {
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Zarovnanie k začiatku rady */
+  }
+  
+  .person-preview {
+    flex: 0 0 calc(33.33% - 20px); /* Šírka pre 3 elementy na jednom riadku s medzerou */
+    margin-right: 20px; /* Medzera medzi elementami */
+    margin-bottom: 25px; /* Medzera pod elementmi */
+    box-sizing: border-box; /* Uistíme sa, že padding sa nepridá k šírke */
+  }
+  
+  
+  .foto {
+    text-align: center; /* Zarovnanie obrázku na stred */
+  }
+  
+  .person-image {
+    width: 100px; /* Šírka obrázku */
+    height: 100px; /* Výška obrázku */
+    border-radius: 50%; /* Zaoblené rohy pre kruhový obrázok */
+  }
+  
+  /* Štýly pre meno */
+  .meno {
+    font-size: 1.2em; /* Veľkosť písma pre meno */
+    margin-top: 10px; /* Medzera nad menom */
+    text-align: center; /* Zarovnanie mena na stred */
+  }
+  
+  /* Štýly pre popis */
+  .popis {
+    font-size: 1em; /* Veľkosť písma pre popis */
+    margin-top: 10px; /* Medzera nad popisom */
+  }
+  
+  /* Príklad pre responzívne štýly - na menšie obrazovky zmeníme maximálnu šírku na 100% */
+  @media screen and (max-width: 768px) {
+    .person-preview {
+      flex-basis: 100%; /* Na menších obrazovkách jeden element na celú šírku */
+      margin-right: 0; /* Odstránime medzeru medzi elementami */
+    }
+  
+  }

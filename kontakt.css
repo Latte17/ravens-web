@@ -1,0 +1,45 @@
+table.contact-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.zoznam,
+.zoznam-fb,
+.zoznam-ig,
+.zoznam-em{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zoznam-fb{
+    margin-left: -2px;
+}
+.zoznam-em{
+    margin-left: -25px;
+}
+
+.lava{
+    border-right: 1px solid black;
+    width: 350px;
+}
+.lave-pole{
+    margin-top: 62px;
+}
+.prava{
+    width: 350px;
+}
+
+.social-media-icons{
+    width: 30px;
+    margin-right: 10px; 
+}
+
+a {
+    text-decoration: none; /* Odeber podtržení */
+    color: inherit; /* Odeber modrou barvu */
+}

@@ -1,0 +1,101 @@
+.sidebar{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+    width: 80px;
+    z-index: 0;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.sidebar-link{
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar-link:hover{
+    background-color: rgb(244, 244, 244);
+}
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.obrazok{
+    height: 150px;
+}
+
+.kord{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+h1{
+    font-size: 36px; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin-top: -30px; 
+    margin-left: 55%;
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-top: 20px; 
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+h3{
+    
+    font-size: 15px;
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; 
+    margin-bottom: 5px;
+}
+
+.obsah{
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.obrazok2 {
+    height: 75px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('ravens_img/wallp5.jpg');
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 185% 400%;
+}
